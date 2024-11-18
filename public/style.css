@@ -1,9 +1,47 @@
 * {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 300; /* Dünne Schrift */
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.font-50 {
+  font-size: 50px;
 }
 
 header,
 footer {
-  background-color: lightblue;
-  padding: 86px;
+  background-color: #3a4e4c;
+  padding: 5%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: blue;
+  margin-top: 5%;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
 }
