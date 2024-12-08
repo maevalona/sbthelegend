@@ -35,13 +35,232 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1,
+h3 {
   color: blue;
   margin-top: 5%;
+  margin-left: 1%;
+}
+
+p {
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+img {
+  box-shadow: none;
+  
 }
 
 header {
   display: flex;
   justify-content: flex-end;
   gap: 50px;
+}
+
+button {
+  background-color: blue;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 1%;
+}
+button:hover {
+  background-color: grey;
+}
+
+/* Allgemeine Stile für das Formular */
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #3a4e4c;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+/* Stile für die Eingabefelder */
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Hover- und Fokus-Effekte */
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Stile für den Submit-Button */
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Labels und Text */
+form {
+  color: #ffffff;
+}
+
+form input::placeholder {
+  color: #999;
+}
+
+/* Abstand zwischen Label und Eingabe */
+form input {
+  margin-top: 5px;
+}
+
+form input:not([type="submit"]) {
+  margin-bottom: 20px;
+}
+
+/* Grundlegendes Styling für den Container */
+.post {
+  width: 300px; /* Breite der Karte */
+  border: 1px solid #ddd; /* Rahmen um die Karte */
+  border-radius: 10px; /* Abgerundete Ecken */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
+  overflow: hidden; /* Inhalt innerhalb der Karte bleibt begrenzt */
+  text-align: center; /* Zentrierung des Inhalts */
+  margin: 20px; /* Abstand zwischen den Karten */
+  background-color: #fff; /* Hintergrundfarbe */
+  font-family: Arial, sans-serif; /* Schriftart */
+}
+
+/* Styling für das Bild */
+.post-image {
+  width: 100%; /* Bild passt sich der Breite des Containers an */
+  height: auto; /* Proportional skalieren */
+  display: block; /* Block-Element für das Bild */
+}
+
+/* Styling für den Titel */
+.post-title {
+  font-size: 1.5rem; /* Schriftgröße */
+  color: #333; /* Textfarbe */
+  margin: 10px 0; /* Abstand oben und unten */
+}
+
+/* Styling für den Like-Button */
+.like-button {
+  background-color: transparent; /* Transparenter Hintergrund */
+  border: none; /* Kein Rahmen */
+  cursor: pointer; /* Zeiger zeigt "Hand"-Symbol */
+  margin: 10px 0; /* Abstand um den Button */
+}
+
+.like-icon {
+  width: 24px; /* Breite des Icons */
+  height: 24px; /* Höhe des Icons */
+  transition: transform 0.2s ease; /* Übergang für Hover-Effekt */
+}
+
+/* Hover-Effekt für den Button */
+.like-button:hover .like-icon {
+  transform: scale(1.2); /* Icon wird beim Hover vergrößert */
+}
+/* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */ /* Hover-Effekt für den Button */
+
+/* Allgemeine Stile für das Formular */
+
+/* Stile für die Eingabefelder */
+form1 input[type="text"],
+form1 input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Hover- und Fokus-Effekte */
+form1 input[type="text"]:focus,
+form1 input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Stile für den Submit-Button */
+form1 input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form1 input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Labels und Text */
+form1 {
+  color: #ffffff;
+}
+
+form1 input::placeholder {
+  color: #999;
+}
+
+/* Abstand zwischen Label und Eingabe */
+form1 input {
+  margin-top: 5px;
+}
+
+form1 input:not([type="submit"]) {
+  margin-bottom: 20px;
+}
+
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Bild füllt den Container, bleibt aber proportional */
+}
+
+
+.posts-container {
+  display: flex; /* Posts nebeneinander anordnen */
+  flex-wrap: wrap; /* Umbruch, wenn der Platz nicht reicht */
+  gap: 20px; /* Abstand zwischen den Posts */
+  justify-content: center; /* Posts zentrieren */
+}
+.heart-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.heart-icon {
+  width: 24px; /* Passe die Größe an */
+  height: 24px;
 }

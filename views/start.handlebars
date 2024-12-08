@@ -1,1 +1,26 @@
 <h1>Alle Beiträge</h1>
+<button>
+  <a href="/new_post">Rezept hochladen</a>
+</button>
+<br />
+
+{{#posts}}
+  <div class="post">
+
+    <a href="/posts/{{id}}">
+
+      <img src="uploads/{{file_name}}" width="30%" height="30%" class="responsive-image"> />
+      <h3>{{titel}}</h3>
+    </a>
+
+    <div class="like">
+      <form1 action="/like/{{id}}" enctype="multipart/form-data" method="POST">
+        <button type="submit" class="heart-button">
+          <img src="/uploads/heart.png" alt="Like" class="heart-icon" />
+        </button>
+      </form>
+    </div>
+    
+  </div>
+
+{{/posts}}
